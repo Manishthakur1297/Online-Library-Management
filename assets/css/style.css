@@ -1,0 +1,271 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 28px;
+}
+
+.center {
+    text-align: center;
+}
+
+th,
+td,
+tr {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #b1ddea;
+}
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0px;
+    margin-top: -10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f7f7f7;
+}
+
+ul.topnav li a {
+    display: block;
+    color: #111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #444;
+    color: #fff
+}
+
+ul.topnav li a.active {
+    background-color: #5bc0de;
+    color: #fff;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+}
+
+
+/* =============================================================
+   NAVBAR & MENU STYLES
+ ============================================================ */
+
+.menu-section {
+    background-color: #e1e1e1;
+    border-bottom: 5px solid #9170E4;
+    width: 100%
+}
+
+.navbar {
+    position: relative;
+    min-height: 70px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+@media (min-width: 768px) {
+    .navbar-header {
+        float: left;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+
+.content-wrapper {
+    margin-top: 40px;
+    min-height: 500px;
+    padding-bottom: 90px;
+    background-image: url("assets/img/books.jpg") ;
+}
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.pad-botm {
+    padding-bottom: 30px;
+}
+
+.col-md-12 {
+    width: 100%;
+}
+
+.header-line {
+    font-weight: 900;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eeeeee;
+    text-transform: uppercase;
+}
+
+.col-md-6 {
+    width: 40%;
+}
+
+.col-xs-6
+{
+    float: left;
+}
+
+.col-md-3 {
+    width: 25%;
+    position: relative;
+}
+
+.alert {
+    border: 2px solid #777;
+    padding: 20px;
+    color: #fff;
+    margin: 15px;
+    background-color: #5bc0de;
+    border-radius: 10px;
+}
+
+.col-md-offset-3 {
+    margin-left: 25%;
+}
+
+.col-md-6,
+.col-sm-6,
+.col-xs-12,
+.col-md-12,
+.col-md-3,
+.col-sm-3,
+.col-xs-6,
+{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-12 {
+    float: left;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    background: #5bc0de;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+
+
+button,
+input {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+
+button {
+    overflow: visible;
+}
+
+input {
+    line-height: normal;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.help-block a {
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: #5bc0de;
+    text-decoration: none;
+}
+
+
+form {
+    border: 0px solid #000;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number] {
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #5bc0de;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #333;
+    color: white;
+    opacity: 0.7;
+}
+
+.footer-section {
+    padding: 25px 40px 25px 40px;
+    color: #000;
+    font-size: 13px;
+    background-color: #f7f7f7;
+    text-align: right;
+    border-top: 5px solid #9170E4;
+}

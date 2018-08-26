@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type='text/xsl' href='issued-books.xsl'?>
+<books>
+    <book>
+         <id>1</id>
+         <bookname>Physics</bookname>
+         <isbn>1111</isbn>
+         <issued>06/11/17</issued>
+         <return>Not Yet Return!</return>
+         <fine>100</fine>
+    </book>
+    <book>
+         <id>2</id>
+         <bookname>Chemistry</bookname>
+         <isbn>2222</isbn>
+         <issued>07/11/17</issued>
+         <return>Returned!</return>
+         <fine>40</fine>
+    </book>
+    <book>
+         <id>3</id>
+         <bookname>Web</bookname>
+         <isbn>3333</isbn>
+         <issued>06/11/17</issued>
+         <return>Not Yet Return!</return>
+         <fine>10</fine>
+    </book>
+    <book>
+         <id>4</id>
+         <bookname>Maths</bookname>
+         <isbn>4444</isbn>
+         <issued>09/11/17</issued>
+         <return>Returned!</return>
+         <fine>70</fine>
+    </book>
+    <book>
+         <id>5</id>
+         <bookname>HTML</bookname>
+         <isbn>5555</isbn>
+         <issued>06/11/17</issued>
+         <return>Not Yet Return!</return>
+         <fine>30</fine>
+    </book>
+    <book>
+         <id>6</id>
+         <bookname>CSS</bookname>
+         <isbn>6666</isbn>
+         <issued>06/11/17</issued>
+         <return>Returned!</return>
+         <fine>100</fine>
+    </book>
+    <book>
+         <id>7</id>
+         <bookname>JS</bookname>
+         <isbn>7777</isbn>
+         <issued>06/11/17</issued>
+         <return>Not Yet Return!</return>
+         <fine>60</fine>
+    </book>
+    <book>
+         <id>8</id>
+         <bookname>Physics</bookname>
+         <isbn>1111</isbn>
+         <issued>06/11/17</issued>
+         <return>Not Yet Return!</return>
+         <fine>100</fine>
+    </book>
+    <book>
+         <id>9</id>
+         <bookname>Chemistry</bookname>
+         <isbn>2222</isbn>
+         <issued>07/11/17</issued>
+         <return>Returned!</return>
+         <fine>40</fine>
+    </book>
+    <book>
+         <id>10</id>
+         <bookname>Web</bookname>
+         <isbn>3333</isbn>
+         <issued>06/11/17</issued>
+         <return>Not Yet Return!</return>
+         <fine>10</fine>
+    </book>
+    <book>
+         <id>11</id>
+         <bookname>Maths</bookname>
+         <isbn>4444</isbn>
+         <issued>09/11/17</issued>
+         <return>Returned!</return>
+         <fine>70</fine>
+    </book>
+    <book>
+         <id>12</id>
+         <bookname>HTML</bookname>
+         <isbn>5555</isbn>
+         <issued>06/11/17</issued>
+         <return>Not Yet Return!</return>
+         <fine>30</fine>
+    </book>
+    <book>
+         <id>13</id>
+         <bookname>CSS</bookname>
+         <isbn>6666</isbn>
+         <issued>06/11/17</issued>
+         <return>Returned!</return>
+         <fine>100</fine>
+    </book>
+    <book>
+         <id>14</id>
+         <bookname>JS</bookname>
+         <isbn>7777</isbn>
+         <issued>06/11/17</issued>
+         <return>Not Yet Return!</return>
+         <fine>60</fine>
+    </book>
+</books>

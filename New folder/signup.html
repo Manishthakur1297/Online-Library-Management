@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>Online Library Management System | Student Signup</title>
+    <!-- CUSTOM STYLE  -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <script type="text/javascript">
+        function valid() {
+            if (document.signup.password.value != document.signup.confirmpassword.value) {
+                alert("Password and Confirm Password Field do not match  !!");
+                document.signup.confirmpassword.focus();
+                return false;
+            }
+            return true;
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand">
+
+                    <img src="assets/img/olms.jpg" />
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <section class="menu-section">
+
+        <ul class="topnav">
+
+            <li class="right"><a href="adminLogin.html">Admin Login</a></li>
+            <li class="right"><a href="index.html">User Login</a></li>
+            <li class="right"><a class="active" href="signup.html">User Signup</a></li>
+        </ul>
+
+    </section>
+    <!-- MENU SECTION END-->
+    <div class="content-wrapper">
+        <div class="container">
+            <div class="row pad-botm">
+                <div class="col-md-12">
+                    <h4 class="header-line">User Signup</h4>
+
+                </div>
+
+            </div>
+            <div class="row">
+
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">
+                            SIGNUP FORM
+                        </div>
+                        <div class="panel-body">
+                            <form name="signup" method="post" action="index.html" onsubmit="return valid();">
+                                <div class="form-group">
+                                    <label>Enter Full Name</label>
+                                    <input class="form-control" type="text" name="fullanme" autocomplete="off" required />
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label>Mobile Number :</label>
+                                    <input class="form-control" type="number" name="mobileno" maxlength="10" autocomplete="off" required />
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Enter Email</label>
+                                    <input class="form-control" type="email" name="email" id="emailid" onblur="checkAvailability()" autocomplete="off" required />
+                                    <span id="user-availability-status" style="font-size:12px;"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Enter Password</label>
+                                    <input class="form-control" type="password" name="password" autocomplete="off" required />
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Confirm Password </label>
+                                    <input class="form-control" type="password" name="confirmpassword" autocomplete="off" required />
+                                </div>
+
+                                <button type="submit" name="signup" class="btn btn-danger" id="submit">Register Now </button>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTENT-WRAPPER SECTION END-->
+    <section class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    &copy; 2017 Online Library Management System | Designed by : Ajay Rana & Manish
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION END-->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!-- CUSTOM SCRIPTS  -->
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
